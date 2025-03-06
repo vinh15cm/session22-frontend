@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    trong JS có 2 nhóm kiểu dữ liệu 
+    1, kiểu nguyên thủy (primitive type) , kiểu đơn giản , tham trị
+    + number , string , null , NaN , boolean
+    2, kiểu phức tạp , reference type , kiểu tham chiếu
+    + array , function, object
+    // cách khai báo
+    // chỉ số đánh từ 0
+    //các phương thức làm việc với mảng
+    //CRUD với mảng
+
+    //1.C : create: thêm
+    push() : thêm phần tử vào cuối mảng
+    unshift() : thêm phần tử vào đầu mảng
+    2,R : read : đọc
+    for():thường: duyệt qua mảng
+    for(in),for of:chỉ duyệt qua chỉ số
+    3,U : update : cập nhật
+    * có thể cập nhật theo index
+    splice():
+    */
+
+   let numbers=[1,5,15];
+   numbers.splice(1,1,55);
+
+    // numbers.push(5);
+    // numbers.push(15);
+    // numbers.unshift(1);
+    // numbers.splice(2,0,10);
+    for (let i = 0; i < numbers.length; i++) {
+console.log("i",number[i]);        
+    }
+    for(const abc in numbers){
+        console.log("abc",numbers[abc]);
+    }
+    console.log("mảng sau khi thêm phần tử", numbers);
+    
+</script>
+</html>
